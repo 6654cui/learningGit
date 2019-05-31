@@ -13,3 +13,4 @@
 
 查看提交日志：
     git log
+    git log --pretty=oneline(显示成一行)
