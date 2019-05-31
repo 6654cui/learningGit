@@ -39,3 +39,6 @@
 推送远程仓库：
     git push -u origin master （初次提交加上 -u 关联本地和远程仓库）
     git push origin master
+
+克隆远程仓库：
+    git clone git@github.com:6654cui/study-Plan.git
