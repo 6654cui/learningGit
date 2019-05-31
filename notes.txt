@@ -1,4 +1,4 @@
-初始化仓库：
+﻿初始化仓库：
     git init
 
 提交代码：
@@ -14,3 +14,6 @@
 查看提交日志：
     git log
     git log --pretty=oneline(显示成一行)
+
+版本回退：
+    git reset --hard 版本号
