@@ -17,3 +17,6 @@
 
 版本回退：
     git reset --hard 版本号
+
+查看历史命令：
+    git reflog
