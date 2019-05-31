@@ -20,3 +20,6 @@
 
 查看历史命令：
     git reflog
+
+查看工作区和版本库的区别：
+    git diff HEAD -- 文件名
