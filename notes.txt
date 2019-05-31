@@ -23,3 +23,9 @@
 
 查看工作区和版本库的区别：
     git diff HEAD -- 文件名
+
+撤销工作区修改：
+    git checkout -- 文件名 （撤销到最后一次add/commit的状态）
+
+撤销暂存区修改：
+    git reset HEAD 文件名
