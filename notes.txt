@@ -25,7 +25,16 @@
     git diff HEAD -- 文件名
 
 撤销工作区修改：
-    git checkout -- 文件名 （撤销到最后一次add/commit的状态）
+    git checkout -- 文件名 （撤销到最后一次add/commit的状态，也可以找回工作区删除的文件）
 
 撤销暂存区修改：
     git reset HEAD 文件名
+
+删除文件：
+    git rm 文件名 （更改到暂存区）
+
+关联到远程仓库：
+    git remote add origin git@github.com:6654cui/learningGit.git
+    
+推送远程仓库：
+    git push -u origin master
