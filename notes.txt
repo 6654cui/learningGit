@@ -1,0 +1,12 @@
+初始化仓库：
+    git init
+
+提交代码：
+    git add 修改的文件
+    git commit -m "备注"
+
+检查仓库状态：
+    git status
+
+检查文件修改：
+    git diff 文件名
