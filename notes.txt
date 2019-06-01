@@ -47,4 +47,9 @@
     git checkout -b 分支名
     相当于：
     git branch dev
-    git checkout dev
+    git checkout dev (切换分支)
+
+合并分支：
+    1.切换之目的分支
+    2.合并分支
+        git merge dev
