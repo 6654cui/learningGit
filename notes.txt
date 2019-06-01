@@ -42,3 +42,9 @@
 
 克隆远程仓库：
     git clone git@github.com:6654cui/study-Plan.git
+
+创建分支：
+    git checkout -b 分支名
+    相当于：
+    git branch dev
+    git checkout dev
