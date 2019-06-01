@@ -50,6 +50,9 @@
     git checkout dev (切换分支)
 
 合并分支：
-    1.切换之目的分支
+    1.切换至目的分支
     2.合并分支
         git merge dev
+
+删除分支：
+    git branch -d 分支名
