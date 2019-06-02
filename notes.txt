@@ -59,3 +59,6 @@
 
 查看分支合并情况：
     git log --graph --pretty=oneline --abbrev-commit
+
+不使用Fast forwad方式合并分支
+    git merge --no-ff -m "备注内容" 分支名
