@@ -3,3 +3,4 @@ Git is free software.
 create new branch,this branch`s name is dev
 create a new branch is quick and simple
 dev1 branch update
+dev 分支管理策略
