@@ -1,0 +1,2 @@
+使用pip来查看python安装的包：
+    pip list
