@@ -1,0 +1,2 @@
+退出mysql终端：
+    control+D
