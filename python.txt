@@ -1,2 +1,17 @@
 使用pip来查看python安装的包：
     pip list
+
+使用pip卸载安装包：
+    pip uninstall 模块名
+
+virtualenv使用方法：
+mac os 安装virtualenv：
+    pip install --user virtualenv
+    pip3 install virtualenv
+
+使用virtualenv创建python环境：
+    virtualenv -no-site-packages env
+
+
+
+
