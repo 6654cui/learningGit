@@ -12,6 +12,14 @@ mac os 安装virtualenv：
 使用virtualenv创建python环境：
     virtualenv -no-site-packages env
 
+创建制定版本：
+    virtualenv env --python=python2.7
+
+激活虚拟环境：
+    source env/bin/activate
+
+退出虚拟环境：
+    deactivate
 
 
 

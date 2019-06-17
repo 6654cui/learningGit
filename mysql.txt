@@ -1,2 +1,5 @@
 退出mysql终端：
     control+D
+
+mysql设置环境变量：
+    PATH="$PATH":/usr/local/mysql/bin;
