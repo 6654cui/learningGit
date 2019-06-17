@@ -63,3 +63,12 @@
 
 不使用Fast forwad方式合并分支
     git merge --no-ff -m "备注内容" 分支名
+
+从远程仓库拉取：
+    git pull origin master
+
+创建标签
+    git tag <name>
+
+查看标签
+    git tag
