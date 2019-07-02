@@ -72,3 +72,6 @@
 
 查看标签
     git tag
+
+查看远程仓库地址
+    git remote -v
