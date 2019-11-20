@@ -3,3 +3,26 @@
 
 mysql设置环境变量：
     PATH="$PATH":/usr/local/mysql/bin;`
+
+启动/关闭数据库服务：
+    net start/stop mysql
+
+退出数据库：
+    exit
+
+查看有几个数据库/表：
+    show databases/tables;
+
+创建/删除数据库：
+    create/drop database 数据库名;
+
+使用数据库：
+    use 数据库名;
+
+展示表结构：
+    desc 表名;in
+
+修改列属性：
+    alter
+
+    
