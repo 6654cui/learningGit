@@ -22,9 +22,11 @@ mysql设置环境变量：
 展示表结构：
     desc 表名;in
 
-修改列属性：
-    alter
+添加列：
+    ALTER TABLE 表名 add column 字段名称 类型(int,char,VARCHAR...) DEFAULT 默认值  位置（FIRST, AFTER+字段名称）;
 
+修改列：
+    alter table 表名 modify 列名 varchar(22);
 
 安装/卸载mysql服务
 mysqld -remove 
@@ -36,8 +38,11 @@ mysql查看启动参数：
 初始化mysql：
     mysqld --initialize
 
+执行数据库脚本：
+    source 脚本
+
 创建表：
-CREATE TABLE `mf_fd_cache` (
+CREATE TABLEmf_fd_cache(
   `id` bigint(18) NOT NULL AUTO_INCREMENT,
   `dep` varchar(3) NOT NULL DEFAULT '',
   `arr` varchar(3) NOT NULL DEFAULT '',
@@ -58,3 +63,9 @@ CREATE TABLE `mf_fd_cache` (
   KEY `flight` (`dep`,`arr`),
   KEY `flightDate` (`flightDate`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=gbk
+
+创建视图
+    CREATE VIEW view_name AS
+    SELECT column_name(s)
+    FROM table_name
+    WHERE condition
